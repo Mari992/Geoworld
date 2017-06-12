@@ -54,7 +54,7 @@ $(document).ready(function() {
     });
 	/*hover za slike u uslugama*/
 	$('.image-hover').hover(function(){
-		$('img', this).stop().animate({opacity:.1},200);
+		$('img', this).stop().animate({opacity:.6},200);
 	}, function(){
 		$('img', this).stop().animate({opacity:1},500)
     });

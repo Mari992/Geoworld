@@ -35,14 +35,14 @@
                 </div>
             </div>
             <div class="item">
-                <img class="img-responsive" src="slike/slide2.jpg" alt="Second Slide">
+                <img class="img-responsive" src="slike/slide2_new.jpg" alt="Second Slide">
                 <div class="carousel-caption">
                  <h3 class="animated fadeInLeftBig"><span>GEOWORLD</span></h3>
                   <p class="animated fadeInRightBig">We are here to measure the world!</p> 
                 </div>
             </div>
             <div class="item">
-                <img class="img-responsive" src="slike/slide3.jpg" alt="Third Slide">
+                <img class="img-responsive" src="slike/slide3_new.jpg" alt="Third Slide">
                 <div class="carousel-caption">
                  <h3 class="animated fadeInLeftBig"><span>GEOWORLD</span></h3>
                   <p class="animated fadeInRightBig">We are here to measure the world!</p>
@@ -196,10 +196,12 @@
 	<div id="about">
       <div  class="container-fluid">
         <div  class="row">
-          <div class="col-sm-12">
+          <div class="transparency">
+		  <div class="content">
               <h2>O nama</h2>
 			  <p>GEOWORLD d.o.o. Novi Sad je jedna od vodećih firmi u geodetskim poslovima u Srbiji.<br> Pružamo usluge geodetskih merenja preko 10 godina za širok spektar klijenata. <br> Firma stalno zapošljava dipl.ing.geodez., geometre, dipl.ing.građ., <br>i koristi sofisticiranu i najnapredniju opremu u cilju da uvek obezbedimo <br>našim klijentima najkvalitetnije proizvode i usluge dostupne na tržištu. <br> Naše osoblje odlično deluje u timskom radu, disciplinovani i kvalifikovani su za svoje pozicije i <br>zajedno sa našom opremom i sistemima omogućavaju nam da<br>osiguramo doslednost i efikasnost u radu. <br>Sedište firme je u Novom Sadu, ali firma radi širom Srbije i <br> spremni smo proširiti naše aktivnosti u inostranstvo.</p>
-            </div>		
+            </div>
+			</div>		
           </div>
 		  </div>
 		  </div>
@@ -221,6 +223,9 @@
 						<div class="image-caption">
 						<p>UGOVORI U TOKU</p>
 						</div>
+						<div class="opis1">
+						<p>UGOVORI U TOKU</P>
+						</div>
 						</div>
 						
 						<div class="slider-img slider-b col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -228,12 +233,19 @@
 							<div class="image-caption">
 						<p>IZRADA 3D MODELA ČAMACA</p>
 						</div>
+						<div class="opis2">
+							<p>IZRADA 3D MODELA ČAMACA</p>
+						
+					</div>
 						</div>
 						
 						<div class="slider-img slider-c col-xs-12 col-sm-12 col-md-4 col-lg-4">
 								<a target="_blank" href="http://www.heliairsweden.com/"><img src="slike/novost3.jpg" alt="post3" class="img-responsive"></a><br>
 							<div class="image-caption">
 						<p>SARADNJA SA ŠVEDSKOM KOMPANIJOM "HELIAIR SWEDEN"</p>
+						</div>
+						<div class="opis1">
+						<p>SARADNJA SA ŠVEDSKOM KOMPANIJOM "HELIAIR SWEDEN"</P>
 						</div>
 						</div>
 					
@@ -264,23 +276,25 @@
 			<div class="info">
 				<i class="fa fa-map-marker">&nbsp Adresa: Bulevar Oslobodjenja 36, Novi Sad, Srbija</i><br>
 				<i class="fa fa-phone-square">&nbsp Telefon: +381 21/5671-023</i><br>
-				<i class="fa fa-envelope">&nbsp Elektronska posta: <a href="">geodesy@company.com</a></i><br>
-				<i class="fa fa-keyboard-o">&nbsp <a href="">wwww.mojastranica.com"</a></i>
+				<i class="fa fa-envelope">&nbsp Elektronska posta: <a href="">companygeoworld@.com</a></i><br>
+				<i class="fa fa-keyboard-o">&nbsp <a href="">https://www.geoworld.com</a></i>
 			</div>
-			<form id="forma">
+			<form id="forma" method="POST" action="https://script.google.com/macros/s/AKfycbxkydwGwd4OFvmsb-7RlmitHg9BUQ4w4is8sVajU9kzlF87kAdz/exec">
 			<div class="row">
 			<div class="row1">
-			<input type="email" id="email" name="email" placeholder="Email">
+			<input type="email" id="email" name="email" placeholder="Vaša email adresa">
 			<input type="text" id="name" name="name" placeholder="Ime"><br><br>
 			</div>
 			<div class="row2">
 			<textarea name="textarea" cols="42" rows="10"></textarea><br><br>
 			</div>
+			</div>
+			</form>
 			<div class="row3">
 			<input type="submit" id="btn_id" name="submit_id" value="Pošalji" onclick="submit_by_id()">
 			</div>
-			</div>
-			</form>
+			
+			
 			</div>	
 
 	</main>
@@ -301,5 +315,6 @@
 		<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
 	<script type="text/javascript" src="main.js"></script>	
 	<script type="text/javascript" src="forma.js"></script>
+	<script type="text/javascript" src="slides2.js"></script>	
 	</body>
 </html>
